@@ -92,11 +92,11 @@ It's a sequence of EXA data structures (check below), without any separator betw
 
 # EXA Data structure:
 Each EXA Data has the following structure:
-- unknown_04 (Int)
+- unknown_04 (Byte)
 - exa_name (String)
 - exa_code (String)
-- exa_code_view_mode (Int)
-- exa_m_register_mode (Int)
+- exa_code_view_mode (Byte)
+- exa_m_register_mode (Byte)
 - exa_sprite (sequence of Bools)
 
 ## unknown_04 (Int)
